@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Proyecto Anderson Pedroza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Proyecto Anderson Pedroza</h1>
+        <img src="imagenes/25-call-of-duty-ghost-in-the-shell.jpg" alt=""> 
+        <h5>https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&pcampaignid=web_share link de descarga</h5>
+
+        <p>Bienvenido al sistema de registro. Este proyecto busca facilitar el acceso, organización y seguimiento de la información de manera eficiente y moderna.</p>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Registro de Usuario</h2>
+            <form id="registroForm">
+                <label for="nombre">Nombres y Apellidos</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="clave">Contraseña</label>
+                <input type="password" id="clave" name="clave" required>
+
+                <label for="confirmar">Confirmar contraseña</label>
+                <input type="password" id="confirmar" name="confirmar" required>
+
+                <button type="submit">Registrarse</button>
+            </form>
+            <p id="mensaje"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Proyecto Anderson Pedroza</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
